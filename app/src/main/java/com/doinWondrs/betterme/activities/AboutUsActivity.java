@@ -49,7 +49,7 @@ public class AboutUsActivity extends AppCompatActivity {
                 "https://www.linkedin.com/in/chuckaltopiedi/",
                 "https://github.com/ChuckAlto",
                 R.drawable.icon1,
-                "Quote"));
+                "Sometimes it is the people no one can imagine anything of who do the things no one can imagine.- Alan Turing"));
         devModelArrayList.add(new DevModel("Jon Rumsey",
                 "https://www.linkedin.com/in/jonathan-rumsey-wa/",
                 "https://github.com/nojronatron",

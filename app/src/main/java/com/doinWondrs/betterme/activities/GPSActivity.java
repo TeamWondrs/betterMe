@@ -29,7 +29,7 @@ import com.google.android.gms.maps.internal.IGoogleMapDelegate;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
-import com.doinWondrs.betterme.databinding.ActivityTestGoogleMapBinding;
+//import com.doinWondrs.betterme.databinding.ActivityTestGoogleMapBinding;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 
@@ -37,7 +37,7 @@ import com.google.android.material.navigation.NavigationBarView;
 public class GPSActivity extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
-    private ActivityTestGoogleMapBinding binding;
+//    private ActivityTestGoogleMapBinding binding;
     private FusedLocationProviderClient fusedLocationClient;
     public double lng,lat;
 
