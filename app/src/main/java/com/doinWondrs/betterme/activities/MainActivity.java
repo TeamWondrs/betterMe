@@ -7,7 +7,9 @@ import android.content.Intent;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.MenuItem;
+import android.widget.ImageView;
 import android.widget.VideoView;
 
 import com.doinWondrs.betterme.R;
@@ -26,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
+        delayIcon();
         navGoTo();
         renderBackground();
 
@@ -38,6 +41,19 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+    private void delayIcon()
+    {
+        ImageView iconDelayer = findViewById(R.id.iconMainActivity);
+        int imagePath = R.drawable.icon1;
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                iconDelayer.setImageResource(imagePath);
+
+            }
+        }, 2000);
+    }
 
 
     private void renderBackground()
