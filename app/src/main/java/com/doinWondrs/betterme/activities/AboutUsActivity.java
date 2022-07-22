@@ -43,13 +43,13 @@ public class AboutUsActivity extends AppCompatActivity {
         devModelArrayList.add(new DevModel("Raul Zarate",
                 "https://www.linkedin.com/in/raul-zarate/",
                 "https://github.com/zaratr",
-                R.drawable.icon1,
-                "Quote"));
+                R.drawable.raulpic,
+                "Git to the Choppa!"));
         devModelArrayList.add(new DevModel("Chuck Altopiedi",
                 "https://www.linkedin.com/in/chuckaltopiedi/",
                 "https://github.com/ChuckAlto",
-                R.drawable.icon1,
-                "Quote"));
+                R.drawable.chuckpic,
+                "\"Sometimes it is the people no one can imagine anything of who do the things no one can imagine.- Alan Turing\""));
         devModelArrayList.add(new DevModel("Jon Rumsey",
                 "https://www.linkedin.com/in/jonathan-rumsey-wa/",
                 "https://github.com/nojronatron",
@@ -74,12 +74,8 @@ public class AboutUsActivity extends AppCompatActivity {
                 "https://www.linkedin.com/in/jason-wilson-5b5baa1a8/",
                 "https://github.com/WilsonJhub",
                 R.drawable.jasonpic,
-                "\"Your actions can be no wiser than your thoughts. Think DEEPLY on this.\""));
-        devModelArrayList.add(new DevModel("Scott Evans",
-                "https://www.linkedin.com/in/rogermreyes/",
-                "https://github.com/mScottEvans",
-                R.drawable.icon1,
-                "Quote"));
+                "\"Your actions can be no wiser than your thoughts. Think DEEPLY on this.\""
+        ));
 
         DevAdapter devAdapter = new DevAdapter(this,devModelArrayList);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false);
