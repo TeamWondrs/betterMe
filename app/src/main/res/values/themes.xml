@@ -15,7 +15,7 @@
     </style>
 
 
-    <style name="Theme.CalendarApp" parent="Theme.AppCompat.Light.NoActionBar"></style>
+    <style name="Theme.CalendarApp" parent="Theme.AppCompat.Light.NoActionBar" />
 
     <style name="Theme.DemoOne" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- NavBar Text and Button Faces -->
@@ -62,5 +62,4 @@
         <item name="colorOnSecondary">@color/CoreGreen</item>
 
     </style>
->>>>>>> 10b085ae79cc49c6b33a824be20cc6ef6bb99b82
 </resources>
