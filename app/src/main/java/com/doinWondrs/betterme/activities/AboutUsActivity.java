@@ -48,7 +48,7 @@ public class AboutUsActivity extends AppCompatActivity {
         devModelArrayList.add(new DevModel("Chuck Altopiedi",
                 "https://www.linkedin.com/in/chuckaltopiedi/",
                 "https://github.com/ChuckAlto",
-                R.drawable.me2,
+                R.drawable.me3,
                 "Sometimes it is the people no one can imagine anything of who do the things no one can imagine.- Alan Turing"));
         devModelArrayList.add(new DevModel("Jon Rumsey",
                 "https://www.linkedin.com/in/jonathan-rumsey-wa/",
