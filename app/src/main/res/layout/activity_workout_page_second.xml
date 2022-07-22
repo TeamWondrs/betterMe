@@ -175,5 +175,29 @@
         app:layout_constraintTop_toBottomOf="@+id/workoutGif2"
         app:srcCompat="@drawable/chest1" />
 
+    <View
+        android:id="@+id/divider"
+        android:layout_width="409dp"
+        android:layout_height="2dp"
+        android:background="@color/BlackRed"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="409dp"
+        android:layout_height="2dp"
+        android:background="@color/BlackRed"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="459dp" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="409dp"
+        android:layout_height="2dp"
+        android:background="@color/BlackRed"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="114dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
